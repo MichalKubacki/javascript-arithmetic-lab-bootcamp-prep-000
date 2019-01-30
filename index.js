@@ -25,11 +25,11 @@ function dec (n) {
 }
 
 function makeInt (n) {
-  parseInt(n, 10)
+  n=parseInt(n, 10)
   return n
 }
 
-function preserveDecimalz (n) {
-  parseFloat(n)
+function preserveDecimal (n) {
+  n=parseFloat(n)
   return n
 }
